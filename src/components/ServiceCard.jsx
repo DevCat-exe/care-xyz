@@ -17,16 +17,8 @@ const getIcon = (name) => {
   return <MdOutlineMedicalServices className="text-primary" size={24} />;
 };
 
-const getDefaultImage = (name) => {
-  const n = name.toLowerCase();
-  if (n.includes("baby"))
-    return "https://images.unsplash.com/photo-1555252333-9f8e92e65df9?auto=format&fit=crop&w=800&q=80";
-  if (n.includes("elderly"))
-    return "https://images.unsplash.com/photo-1576091160550-2173dba999ef?auto=format&fit=crop&w=800&q=80";
-  if (n.includes("special"))
-    return "https://images.unsplash.com/photo-1586075010620-eb4871de31c5?auto=format&fit=crop&w=800&q=80";
-  return "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=800&q=80";
-};
+const DEFAULT_FALLBACK_IMAGE =
+  "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=800&q=80";
 
 export default function ServiceCard({ service, index }) {
   return (
@@ -39,7 +31,7 @@ export default function ServiceCard({ service, index }) {
     >
       <div className="relative w-full aspect-video rounded-2xl overflow-hidden shadow-sm">
         <Image
-          src={service.imageUrl || getDefaultImage(service.name)}
+          src={service.imageUrl || DEFAULT_FALLBACK_IMAGE}
           alt={service.name}
           fill
           className="object-cover group-hover:scale-105 transition-transform duration-700"

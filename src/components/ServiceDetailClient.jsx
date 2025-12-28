@@ -45,10 +45,9 @@ export default function ServiceDetailClient({ service }) {
               <div
                 className="absolute inset-0 bg-cover bg-center transition-transform duration-[2s] hover:scale-110"
                 style={{
-                  backgroundImage: `url("${
-                    service.imageUrl ||
+                  backgroundImage: `url("${service.imageUrl ||
                     "https://images.unsplash.com/photo-1576765608535-5f04d1e3f289?auto=format&fit=crop&w=1000&q=80"
-                  }")`,
+                    }")`,
                 }}
               ></div>
               <div className="absolute inset-0 bg-linear-to-t from-black/60 via-transparent to-transparent"></div>
