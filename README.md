@@ -2,9 +2,9 @@
 
 Care.io is a modern, high-end marketplace connecting families with professional, background-verified caregivers. Designed with a vibrant, light-mode first approach, it offers a seamless booking experience for Childcare, Eldercare, and Specialized medical assistance.
 
-## 🚀 Live Demo - WIP
+## 🚀 Live Demo
 
-[Care.xyz]()
+[Care.xyz](http://devcat-b12a12.netlify.app/)
 
 ## ✨ Key Features
 
