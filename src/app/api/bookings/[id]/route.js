@@ -1,7 +1,7 @@
-import { connectToDatabase } from "../../../lib/mongodb";
+import { connectToDatabase } from "@/lib/mongodb";
 import { getServerSession } from "next-auth/next";
-import { authOptions } from "../../../lib/auth";
 import { ObjectId } from "mongodb";
+import { authOptions } from "@/lib/auth";
 
 export async function PATCH(request, { params }) {
     try {
