@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Care.io - Premium Caregiving Network 🏥
 
-## Getting Started
+Care.io is a modern, high-end marketplace connecting families with professional, background-verified caregivers. Designed with a vibrant, light-mode first approach, it offers a seamless booking experience for Childcare, Eldercare, and Specialized medical assistance.
 
-First, run the development server:
+## 🚀 Live Demo - WIP
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+[Care.xyz]()
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Key Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 💎 Premium User Experience
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Vibrant Aesthetic**: A meticulously crafted light-mode UI using high-contrast typography and harmonized color palettes.
+- **Dynamic Bookings**: Intelligently switches between Hourly and Daily rates with real-time cost calculation.
+- **Modern Feedback**: Every interaction is powered by **SweetAlert2** for elegant, non-intrusive feedback.
+- **Micro-Animations**: Fluid transitions and hover states powered by **Framer Motion**.
 
-## Learn More
+### 🔒 Secure Authentication
 
-To learn more about Next.js, take a look at the following resources:
+- **Multi-Auth**: Support for traditional credentials and **Google OAuth**.
+- **User Verification**: Mandatory NID Number and Contact Phone collection.
+- **Strict Security**: High-complexity password enforcement (6+ chars, Uppercase, Lowercase) on both frontend and backend.
+- **Google Sync**: Automated database synchronization for social logins.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 📅 Advanced Booking System
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Location Intelligence**: Multi-step meeting point selectors (Division → District → City → Area).
+- **Invoicing**: Automatic HTML email invoicing sent directly to users upon successful booking.
+- **Booking Insights**: Interactive dashboard to view status, investment breakdown, and caretaker details.
+- **Cancellation Flow**: Secure, one-click cancellation for pending bookings.
 
-## Deploy on Vercel
+### 🌐 Performance & SEO
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Dynamic Metadata**: Specialized SEO titles and descriptions for every service page.
+- **Route Protection**: Server-side middleware guarding private dashboards and checkout flows.
+- **Next.js 15+ Optimized**: Fully compatible with the latest asynchronous APIs and Turbopack.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15/16 (App Router)
+- **Styling**: Tailwind CSS 4.0
+- **Database**: MongoDB (Native Driver)
+- **Auth**: NextAuth.js
+- **Animations**: Framer Motion
+- **UI Components**: Lucide Icons, SweetAlert2
+- **Communication**: Nodemailer (GMAIL SMTP)
