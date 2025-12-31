@@ -1,13 +1,13 @@
-# Care.io 🏥  
+# Care.xyz 🏥  
 ### Premium Caregiving Network Platform
 
-Care.io is a modern, high-end caregiving marketplace that connects families with professional, background-verified caregivers. Designed with a vibrant, light-mode-first UI, it delivers a seamless and trustworthy booking experience for childcare, eldercare, and specialized medical assistance.
+Care.xyz is a modern, high-end caregiving marketplace that connects families with professional, background-verified caregivers. Designed with a vibrant, light-mode-first UI, it delivers a seamless and trustworthy booking experience for childcare, eldercare, and specialized medical assistance.
 
 ---
 
 ## 📸 Screenshot
 
-![Care.io Home](./preview.png)
+![Care.xyz Home](./preview.png)
 
 ---
 
