@@ -14,7 +14,14 @@ const lexend = Lexend({
 export const metadata = {
   title: "Care.xyz - Trusted Care for Your Loved Ones",
   description: "Connect with verified, compassionate caregivers",
+  openGraph: {
+    title: "Care.xyz",
+    description: "Connect with verified, compassionate caregivers",
+    url: "https://devcat-b12a12.netlify.app/",
+    siteName: "Care.xyz",
+  },
 };
+
 
 export default function RootLayout({ children }) {
   return (
